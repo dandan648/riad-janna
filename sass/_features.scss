@@ -141,7 +141,13 @@
   grid-column: bleed-start / bleed-end;
 
   display: flex;
+
   @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
     flex-direction: column;
     margin-top: 3rem;
   }
